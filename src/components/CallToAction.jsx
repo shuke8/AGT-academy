@@ -21,7 +21,7 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            "ASIA TRANS GAS NBCC"
+            ASIA TRANS GAS NBCC
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
             Unlock Your Potential with ATG Academy: Empowering Excellence in Gas
