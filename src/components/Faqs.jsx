@@ -6,47 +6,46 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is the Gas Turbine?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'A gas turbine is a type of internal combustion engine that converts the energy from the combustion of fuel into mechanical energy to produce power. It operates on the principle of the Brayton cycle, which involves compressing air, mixing it with fuel, combusting the mixture, and then expanding the high-temperature and high-pressure gases through a turbine to generate power.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Whats is Gas Generator?',
+      answer:
+        'The gas generator is the primary component of a gas turbine engine and is responsible for generating the high-temperature, high-pressure gases required to drive the turbine and produce power.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Do you know SCADA system?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'SCADA, which stands for Supervisory Control and Data Acquisition, is a system used for monitoring and controlling industrial processes and infrastructure. It consists of hardware and software components that work together to collect real-time data, provide visualization of the process, and allow operators to remotely control and manage the system.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How many gas tubine compressors operate in WKC1 station',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Overall WKC1 station has 5 compressors, three of them from GE and two of them from Solar Turbines company.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'Describe about Gas generator in UCS1 Station',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'UCS1 uses Caterpillar Gas generators and Caterpillar is a well-known manufacturer of gas generators, among other industrial equipment. Caterpillar gas generators are designed to provide reliable and efficient power generation in a wide range of applications, including industrial, commercial, and residential settings.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: 'Main responsibility of UKMS station?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'The responsibilities of a UKMS metering station is responsible for the accurate measurement and monitoring of natural gas flow through a pipeline or distribution system.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Describe about EAM System?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'EAM stands for Enterprise Asset Management, which refers to the practices, processes, and software tools used to manage an organizations physical assets throughout their lifecycle. An EAM system provides a comprehensive solution for asset tracking, maintenance, scheduling, and optimization.',
     },
     {
-      question: 'Can we expect more inventory features?',
+      question: 'What is Portal ATG?',
       answer: 'In life it’s really better to never expect anything at all.',
     },
     {

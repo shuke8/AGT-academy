@@ -12,27 +12,26 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Professional Knowledge',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'ATG Company has well-qualified engineers and enough exprience to work with Gas Turbines such as GE, SolarTurbines, Rolly-Royce',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Exchanging experiences',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Every year ATG company invites International Engineers to exchange experiences in Gas Turbine field',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Friendly Working Spirit',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      'Chinese and Uzbek engineers work friendly and teaching each other.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+    title: 'Be professional',
+    description: 'Working and exchanging experience ',
     image: screenshotReporting,
   },
 ]
@@ -72,11 +71,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            ATG Academy provides Professional knowledge.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Academy knowledge provides a strong foundation for lifelong learning
+            and personal growth.
           </p>
         </div>
         <Tab.Group

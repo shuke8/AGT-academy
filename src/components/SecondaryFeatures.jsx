@@ -10,10 +10,11 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Compressor Engineer',
+    summary:
+      'Empowering Efficiency and Reliability: Compressor Engineers at the Heart of Seamless Operations.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Continuously develop and expand your technical knowledge of compressors, including their design, operation, maintenance, and troubleshooting. Stay updated with industry advancements and best practices.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +45,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Scada Engineer',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Take your skills to the next level with SCADA Academy: Empowering professionals in the field of industrial automation and control systems.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Continuously enhance your knowledge and expertise in SCADA systems through training, certifications, and staying up-to-date with the latest industry trends and technologies.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +73,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Mechanical Engineer',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Precision in Motion: Mechanical Engineers Engineering a World of Possibilities',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Mechanical engineers design, analyze, and maintain mechanical systems, ranging from large machinery to small components. They play a critical role in industries such as manufacturing, aerospace, automotive, and energy.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -216,11 +217,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            ATG Academy of Engineering: Shaping Future Innovators and Building
+            Engineering Excellence.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Engineering Excellence, Shaping Innovators of Tomorrow.
           </p>
         </div>
         <FeaturesMobile />

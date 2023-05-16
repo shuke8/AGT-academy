@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'ATG Academy is an exceptional educational institution dedicated to providing industry-leading knowledge and expertise in the energy sector. The instructors are highly knowledgeable and experienced, offering valuable insights and practical skills to students.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Otabek Komilov',
+        role: 'General Manager for operation of  BMGMC',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'The curriculum is comprehensive and tailored to meet the demands of the ever-evolving energy industry.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Muzaffar Nurov',
+        role: 'Engineer Scada',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'The academy"s commitment to hands-on learning and real-world applications ensures that graduates are well-prepared for the challenges of their respective fields.',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Sanjar Nurmuratov',
+        role: 'Compressors engineer',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'The supportive learning environment and state-of-the-art facilities further enhance the overall educational experience.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Sobir Turaev',
+        role: 'Technical affairs section Deputy Manager',
         image: avatarImage2,
       },
     },
@@ -51,10 +51,10 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'ATG Academy truly stands out as a top choice for those seeking to excel in the energy industry.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Rustam Abdullaev',
+        role: 'Maintenance Plan Engineer',
         image: avatarImage3,
       },
     },
@@ -62,8 +62,8 @@ const testimonials = [
       content:
         'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Nurov Muzaffar',
+        role: 'Engineer SCADA',
         image: avatarImage4,
       },
     },
@@ -88,7 +88,7 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Welcome to Asia Trans Gas Academy website.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Our software is so simple that people can’t help but fall in love

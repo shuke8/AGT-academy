@@ -105,56 +105,55 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
+              <span className="relative">ATG Academy,</span>
             </span>{' '}
             for everyone.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Fueling Excellence in Pipeline Engineering and Operations.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            price="Mechanical Engineer"
+            description="Professional who applies principles of engineering"
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Designing and Prototyping',
+              'Analysis and Testing',
+              'Technical Drawings and Documentation',
+              'Manufacturing and Production Support',
+              'Project Management',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Future Engineer"
+            price="Compressor Engineer"
+            description="Latest information from GE"
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Manufacturing Support',
+              'Maintenance and Troubleshooting',
+              'Performance Optimization',
+              'Compliance and Safety',
+              'Design and Development',
+              'Performance Analysis',
+              'Material Selection and Stress Analysis',
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            name="Learning is the best"
+            price="SCADA System"
+            description="Honeywell"
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Network Infrastructure',
+              'System Integration',
+              'System Maintenance and Troubleshooting',
+              'Security and Cybersecurity',
+              'System Design',
             ]}
           />
         </div>
