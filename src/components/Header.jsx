@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
+// import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
@@ -83,9 +83,9 @@ function MobileNavigation() {
             <MobileNavLink href="#testimonials">Comments</MobileNavLink>
             <MobileNavLink href="#pricing">Fields</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <SignedOut>
-              <MobileNavLink href="/login">Log In</MobileNavLink>
-            </SignedOut>
+            {/* <SignedOut> */}
+            <MobileNavLink href="/login">Log In</MobileNavLink>
+            {/* </SignedOut> */}
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -109,19 +109,19 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <SignedOut>
-              <div className="hidden md:block">
-                <NavLink href="/login">Sign in</NavLink>
-              </div>
-              <Button href="/register" color="blue">
-                <span>
-                  Get started <span className="hidden lg:inline">today</span>
-                </span>
-              </Button>
-            </SignedOut>
-            <SignedIn>
+            {/* <SignedOut> */}
+            <div className="hidden md:block">
+              <NavLink href="/login">Sign in</NavLink>
+            </div>
+            <Button href="/register" color="blue">
+              <span>
+                Get started <span className="hidden lg:inline">today</span>
+              </span>
+            </Button>
+            {/* </SignedOut> */}
+            {/* <SignedIn>
               <UserButton />
-            </SignedIn>
+            </SignedIn> */}
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
