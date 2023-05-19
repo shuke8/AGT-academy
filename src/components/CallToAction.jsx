@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
+import Table from './Table'
 
 export function CallToAction() {
   return (
@@ -31,6 +32,7 @@ export function CallToAction() {
             Start your career
           </Button>
         </div>
+        <Table />
       </Container>
     </section>
   )
