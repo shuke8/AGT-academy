@@ -28,11 +28,15 @@ export function CallToAction() {
             Unlock Your Potential with ATG Academy: Empowering Excellence in Gas
             Turbine Education.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          {/* <Button href="/register" color="white" className="mt-10">
+            Start your career
+          </Button> */}
+                    <Button href="/Lesson" color="white" className="mt-10">
             Start your career
           </Button>
+
         </div>
-        <Table />
+        {/* <Table /> */}
       </Container>
     </section>
   )
