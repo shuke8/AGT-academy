@@ -1,10 +1,12 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { CheckIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { PlayPauseIcon } from '@heroicons/react'
+
 import YouTubeEmbed from '@/components/video'
 
 import { Button } from '../components/Button'
+import CheckIcon from './icons/checkIcon'
+import XMarkIcon from './icons/XMarkIcon'
+import PlayPauseIcon from './icons/PlayPauseIcon'
 
 export default function TestModal() {
   const [open, setOpen] = useState(false)
